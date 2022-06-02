@@ -1,0 +1,16 @@
+.star-container{
+    width: var(--btns-size);
+    height: var(--btns-size);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--clr-neutral-300);
+    border-radius: 50%;
+    // background-color: red;
+    & img{
+        width: 40%;
+        height: 40%;
+    }
+}

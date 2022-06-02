@@ -1,3 +1,10 @@
 @import 'base/reset';
 @import 'base/font';
-@import 'base/root'
+@import 'base/root';
+@import 'base/base';
+
+@import 'components/rating';
+@import 'components/submit-button';
+@import 'components/star';
+
+@import 'pages/index';

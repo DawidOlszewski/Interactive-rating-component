@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-neutral-900);
+}
+
+section{
+    width: clamp(18rem, 40vw , 25rem);
+    padding: var(--padding);
+    
+    border-radius: var(--padding);
+
+    background: radial-gradient(at left top, var(--clr-neutral-500), var(--clr-neutral-700));
+
+    h1{
+        margin: 1.5rem 0 0.8rem 0;
+    }
+
+    p {
+        color: var(--clr-neutral-200)
+    }
+}
+

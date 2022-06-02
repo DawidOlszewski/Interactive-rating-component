@@ -1,0 +1,30 @@
+.rating-form{
+    margin: 1.5rem 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-label{
+    width: var(--btns-size);
+    height: var(--btns-size);
+    border-radius: 50%;
+    background-color: var(--clr-neutral-300);
+    padding-top: 0.2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    & input[type="radio"]{
+        display: none;
+    }
+
+    &:hover{
+        background-color: var(--clr-primary);
+    }
+
+
+}

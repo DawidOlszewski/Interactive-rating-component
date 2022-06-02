@@ -1,0 +1,16 @@
+.submit-btn{
+    width: 100%;
+    height: var(--btns-size);
+
+    border-radius: var(--btns-size);
+    border: none;
+
+    background-color: var(--clr-primary);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--clr-neutral-100);
+        color: var(--clr-primary)
+    }
+}
