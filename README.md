@@ -4,7 +4,7 @@
 
 Really simple project. 
 
-you can preview site here: https://github.com/DawidOlszewski/Interactive-rating-component
+you can preview site here: https://interactive-rating-compotent.netlify.app/
 
 I used here: 
 * SCSS
